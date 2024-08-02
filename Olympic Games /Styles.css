@@ -1,0 +1,90 @@
+
+
+.towerpicture {
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    background-color: #0a0a23;
+    text-transform: uppercase;
+    color:aliceblue;
+    border-bottom: 4px solid yellow;
+
+}
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #dee2e6;
+}
+nav a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    color:#dee2e6
+}
+.home{
+    color: rgba(255, 255, 0, 0.659);
+}
+.medal{
+    color: rgba(2, 143, 2, 0.554)
+}
+.sports{
+    color:rgb(5, 179, 176)
+}
+.news{
+    color:rgba(173, 5, 5, 0.951)
+}
+
+
+.tablerank{
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width:400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+.tablerank thead tr{
+    background-color: rgba(2, 143, 2, 0.554) ;
+    color: rgb(239, 239, 239);
+    text-align: left;
+    font-weight: bold;
+}
+.tablerank th,.tablerank td{
+    padding: 12px 15px;
+}
+.tablerank tbody tr{
+    border-bottom: 1px solid rgba(2, 143, 2, 0.554);
+}
+.tablerank tbody tr:nth-last-of-type{
+    border-bottom: 2px solid rgba(2, 143, 2, 0.554);
+}
+
+
+.news-article {
+    border: 1px solid #dee2e6;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #5d2d2d99;
+}
+.news-article h2 {
+    margin-top: 0;
+}
+.news-article a {
+    color: #42f879;
+    text-decoration: none;
+}
+.news-article a:hover {
+    text-decoration: underline;
+}
